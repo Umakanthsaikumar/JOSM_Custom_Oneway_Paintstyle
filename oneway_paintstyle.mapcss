@@ -195,7 +195,7 @@ way|z9-16[highway=unclassified][oneway=yes]{
 	repeat-image-spacing: 6;
 	z-index: -4;
 	casing-width:2;
-	casing-color:#FDBF6F;
+	casing-color:#d5a6bd;
 	
 }
 

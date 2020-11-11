@@ -310,7 +310,7 @@ way|z9-16[highway=track][oneway=yes]{
 	repeat-image-spacing: 6;
 	z-index: -4;
 	casing-width:2;
-	casing-color:#FDBF6F;
+	casing-color:#6e541c;
 }
 
 

@@ -8,15 +8,52 @@ Summary:........This map paint style was created to improve the visibility of on
 Author:.........rocky_Rockz(osmid)
 *********************************************/
 
-way|z15-34[highway] >node:connection {
-symbol-shape:circle;
-symbol-size:8;
-casing-color:cyan;
+way[highway] >node|z18-34!:connection {
+
+	symbol-shape:square;
+	symbol-size:5;
+	symbol-stroke-color: yellow;
+	symbol-fill-color: black;
+}	
+
+way[highway] >node|z16-18!:connection {
+
+	symbol-shape:square;
+	symbol-size:4;
+	symbol-stroke-color: yellow;
+	symbol-fill-color: black;
 }
 
-way|z15-34[highway] >node!:connection {
-symbol-shape:square;
-symbol-size:6;
+way[highway] >node|z5-16!:connection {	
+	symbol-shape:square;
+	symbol-size:1;
+	symbol-stroke-color: yellow;
+	symbol-fill-color: black;
+}
+
+/*-----Junction Node styling-----*/
+
+way[highway] >node|z18-34:connection {
+
+	symbol-shape:circle;
+	symbol-size:9;
+	symbol-stroke-color: cyan;
+	symbol-fill-color: black;
+}	
+
+way[highway] >node|z15-17:connection {
+
+	symbol-shape:circle;
+	symbol-size:5;
+	symbol-stroke-color: cyan;
+	symbol-fill-color: black;
+}
+
+way[highway] >node|z5-15:connection {	
+	symbol-shape:circle;
+	symbol-size:0.1;
+	symbol-stroke-color: cyan;
+	symbol-fill-color: black;
 }
 
 
@@ -746,3 +783,41 @@ color: white;
 dashes: 2 2;
 casing-dashes: 2;
 }
+
+
+way[oneway=yes][bridge=yes]{
+    	object-z-index: -2;
+    	width: 0;
+    	casing-width: 3;
+	text:tr("bridge");
+	text-color:cyan;
+	text-offset: 10;
+	font-size: 13;
+	font-family: verdana;
+	text-halo-color:black;
+	text-halo-radius: 2;
+	casing-dashes-background-color:cyan;
+	casing-dashes: 15;
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:28;
+	repeat-image-height:20;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -259,9 +259,8 @@ width: 0;
 repeat-image-spacing: 6;
 z-index: -4;
 casing-width:2;
-casing-color:#FDBF6F;
+casing-color:#FEFECB;
 }
-
 
 way|z9-15[highway=tertiary_link][oneway=yes]{
 repeat-image: "icons/newarrow2.svg";
@@ -273,7 +272,7 @@ width: 0;
 repeat-image-spacing: 6;
 z-index: -4;
 casing-width:2;
-casing-color:#FDBF6F;
+casing-color:#FEFECB;
 casing-dashes: 10;
 casing-dashes-background-color: white;
 }
@@ -353,7 +352,7 @@ casing-color:#45588c;
 }
 
 
-way|z16-34[highway=service][service=parking_asile][oneway=yes]{
+way|z16-34[highway=service][service=parking_aisle][oneway=yes]{
 repeat-image: "icons/newarrow2.svg";
 repeat-image-align: center;
 repeat-image-width:28;

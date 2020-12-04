@@ -246,7 +246,7 @@ width: 0;
 repeat-image-spacing: 26;
 z-index: -4;
 casing-width:2;
-casing-color:#FEFECB;
+casing-color:#FFFDA6;
 }
 
 way|z9-15[highway=tertiary][oneway=yes]{
@@ -259,7 +259,7 @@ width: 0;
 repeat-image-spacing: 6;
 z-index: -4;
 casing-width:2;
-casing-color:#FEFECB;
+casing-color:#FFFDA6;
 }
 
 way|z9-15[highway=tertiary_link][oneway=yes]{
@@ -598,7 +598,7 @@ width: 0;
 repeat-image-spacing: 4;
 z-index: -4;
 casing-width:3;
-casing-color:#FEFECB;
+casing-color:#757500;
 color: white;
 dashes: 2 2;
 casing-dashes: 2;

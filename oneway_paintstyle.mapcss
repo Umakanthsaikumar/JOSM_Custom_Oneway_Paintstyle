@@ -11,11 +11,12 @@ Author:.........rocky_Rockz(osmid)
 way|z15-34[highway] >node:connection {
 symbol-shape:circle;
 symbol-size:8;
+casing-color:cyan;
 }
 
 way|z15-34[highway] >node!:connection {
 symbol-shape:square;
-symbol-size:1;
+symbol-size:6;
 }
 
 

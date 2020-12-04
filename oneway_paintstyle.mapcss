@@ -795,7 +795,14 @@ way[oneway=yes][bridge=yes]::corebridge{
 	repeat-image-height:20;
 	casing-color: #FDBF6F;
 	casing-dashes:20;
-	casing-dashes-background-color:cyan;	
+	casing-dashes-background-color:#FDBF6F;
+	text:tr("bridge");
+	font-size:14;
+	text-offset:14;
+	text-color: black;
+	text-halo-color: cyan;
+	text-halo-radius:1;
+	font-family:verdana;
 }	
 
 

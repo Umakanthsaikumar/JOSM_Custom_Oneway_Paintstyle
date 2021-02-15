@@ -336,8 +336,8 @@ casing-dashes-background-color: white;
 way|z19-34[highway=unclassified][oneway=yes]{
 repeat-image: "icons/newarrow2.svg";
 repeat-image-align: center;
-repeat-image-width:25;
-repeat-image-height:20;
+repeat-image-width:33;
+repeat-image-height:23;
 color:red;
 width: 0;
 repeat-image-spacing: 26;
@@ -934,10 +934,3 @@ way[highway=service][oneway=yes][bridge=yes]::corebridge{
 	casing-dashes:20;
 	casing-dashes-background-color:#45588c;
 }	
-
-
-
-
-
-
-

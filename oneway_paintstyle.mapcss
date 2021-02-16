@@ -74,8 +74,8 @@ casing-color:#FA8E05;
 way|z19-34[highway=motorway_link][oneway=yes]{
 repeat-image: "icons/newarrow2.svg";
 repeat-image-align: center;
-repeat-image-width:27;
-repeat-image-height:22;
+repeat-image-width:33;
+repeat-image-height:26;
 width: 0;
 repeat-image-spacing: 25;
 z-index: -4;
@@ -107,6 +107,8 @@ repeat-image-spacing: 6;
 z-index: -4;
 casing-width:2;
 casing-color:#FA8E05;
+casing-dashes: 10;
+casing-dashes-background-color: white;
 }
 
 way|z19-34[highway=trunk][oneway=yes]{

@@ -14,7 +14,7 @@ way[highway] >node|z18-34!:connection {
 	symbol-size:4;
 	symbol-stroke-color: yellow;
 	symbol-fill-color: black;
-}	
+}
 
 way[highway] >node|z16-18!:connection {
 
@@ -503,14 +503,14 @@ way|z9-18[highway=track][oneway=yes]{
 
 
 /******************************/
-/* Highways with Roundabout */
+/* Highways with Roundabout Junction Tags*/
 /******************************/
 
 
-way|z16-34[highway=motorway][junction=roundabout][oneway=yes]{
+way|z18-34[highway=motorway][junction=roundabout][oneway=yes]{
 	repeat-image: "icons/newarrow2.svg";
 	repeat-image-align: center;
-	repeat-image-width:33;
+	repeat-image-width:38;
 	repeat-image-height:26;
 	color:red;
 	width: 0;
@@ -518,9 +518,56 @@ way|z16-34[highway=motorway][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#FA8E05;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
+
+
+way|z9-18[highway=motorway][junction=roundabout][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:16;
+	repeat-image-height:10;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#FA8E05;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color:black;
+}
+
+way|z18-34[highway=motorway][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:38;
+	repeat-image-height:26;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 10;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#FA8E05;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
+}
+
+way|z9-18[highway=motorway][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:32;
+	repeat-image-height:24;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#FA8E05;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
+}
+
 
 way|z9-16[highway=motorway_link][junction=roundabout][oneway=yes]{
 	repeat-image: "icons/newarrow2.svg";
@@ -533,9 +580,10 @@ way|z9-16[highway=motorway_link][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#FA8E05;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
+
 
 way|z16-34[highway=trunk][junction=roundabout][oneway=yes]{
 	repeat-image: "icons/newarrow2.svg";
@@ -547,7 +595,7 @@ way|z16-34[highway=trunk][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#809BC0;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
 
@@ -561,29 +609,25 @@ way|z9-16[highway=trunk][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#809BC0;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
 
-
-way|z19-34[highway=secondary][junction=roundabout][oneway=yes]{
+way|z16-34[highway=trunk][junction=circular][oneway=yes]{
 	repeat-image: "icons/newarrow2.svg";
 	repeat-image-align: center;
 	repeat-image-width:33;
 	repeat-image-height:26;
-	color:red;
 	width: 0;
-	repeat-image-spacing: 20;
+	repeat-image-spacing: 4;
 	z-index: -4;
 	casing-width:3;
-	casing-color:#FDBF6F;
-	casing-dashes: 5,5;
-	casing-dashes-background-color: black;
+	casing-color:#809BC0;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
 }
 
-/** #FDBF6F **/
-
-way|z9-18[highway=secondary][junction=roundabout][oneway=yes]{
+way|z9-16[highway=trunk][junction=circular][oneway=yes]{
 	repeat-image: "icons/newarrow2.svg";
 	repeat-image-align: center;
 	repeat-image-width:16;
@@ -592,10 +636,11 @@ way|z9-18[highway=secondary][junction=roundabout][oneway=yes]{
 	repeat-image-spacing: 4;
 	z-index: -4;
 	casing-width:3;
-	casing-color:#FDBF6F;
-	casing-dashes: 5;
-	casing-dashes-background-color:black;
+	casing-color:#809BC0;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
 }
+
 
 way|z19-34[highway=primary][junction=roundabout][oneway=yes]{
 	repeat-image: "icons/newarrow2.svg";
@@ -606,7 +651,7 @@ way|z19-34[highway=primary][junction=roundabout][oneway=yes]{
 	repeat-image-spacing: 4;
 	z-index: -4;
 	casing-width:3;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;	
 }
 
@@ -620,11 +665,98 @@ way|z9-16[highway=primary][junction=roundabout][oneway=yes]{
 	repeat-image-spacing: 4;
 	z-index: -4;
 	casing-width:3;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
 
-way|z16-34[highway=tertiary][junction=roundabout][oneway=yes]{
+
+way|z19-34[highway=primary][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:33;
+	repeat-image-height:26;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;	
+}
+
+way|z9-18[highway=primary][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:16;
+	repeat-image-height:10;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color:#EA004F;
+}
+
+way|z19-34[highway=secondary][junction=roundabout][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:35;
+	repeat-image-height:28;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 20;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#FDBF6F;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: black;
+}
+
+
+way|z9-18[highway=secondary][junction=roundabout][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:16;
+	repeat-image-height:10;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#FDBF6F;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color:black;
+}
+
+way|z19-34[highway=secondary][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:35;
+	repeat-image-height:28;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 20;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#FDBF6F;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
+}
+
+way|z9-18[highway=secondary][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:16;
+	repeat-image-height:10;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#FDBF6F;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
+}
+
+way|z19-34[highway=tertiary][junction=roundabout][oneway=yes]{
 	repeat-image: "icons/newarrow2.svg";
 	repeat-image-align: center;
 	repeat-image-width:33;
@@ -635,12 +767,11 @@ way|z16-34[highway=tertiary][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#FEFECB;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
 
-
-way|z9-16[highway=tertiary][junction=roundabout][oneway=yes]{
+way|z9-18[highway=tertiary][junction=roundabout][oneway=yes]{
 	repeat-image: "icons/newarrow2.svg";
 	repeat-image-align: center;
 	repeat-image-width:16;
@@ -651,8 +782,38 @@ way|z9-16[highway=tertiary][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#757500;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
+}
+
+way|z16-34[highway=tertiary][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:33;
+	repeat-image-height:26;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#FEFECB;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
+}
+
+way|z9-18[highway=tertiary][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:16;
+	repeat-image-height:10;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#757500;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
 }
 
 way|z16-34[highway=unclassified][junction=roundabout][oneway=yes]{
@@ -665,7 +826,7 @@ way|z16-34[highway=unclassified][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#d5a6bd;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
 
@@ -679,10 +840,37 @@ way|z9-16[highway=unclassified][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#d5a6bd;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
 
+way|z18-34[highway=unclassified][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:33;
+	repeat-image-height:26;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#d5a6bd;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
+}
+
+way|z9-16[highway=unclassified][junction=roundabout][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:16;
+	repeat-image-height:10;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#d5a6bd;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
+}
 
 way|z18-34[highway=residential][junction=roundabout][oneway=yes]{
 	repeat-image: "icons/newarrow2.svg";
@@ -691,11 +879,11 @@ way|z18-34[highway=residential][junction=roundabout][oneway=yes]{
 	repeat-image-height:26;
 	color:red;
 	width: 0;
-	repeat-image-spacing: 4;
+	repeat-image-spacing: 25;
 	z-index: -4;
 	casing-width:3;
 	casing-color:#E8E8E8;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
 
@@ -710,8 +898,38 @@ way|z9-16[highway=residential][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#E8E8E8;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
+}
+
+way|z18-34[highway=residential][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:33;
+	repeat-image-height:26;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#E8E8E8;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
+}
+
+way|z9-16[highway=residential][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:16;
+	repeat-image-height:10;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 4;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#E8E8E8;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
 }
 
 way|z16-34[highway=service][junction=roundabout][oneway=yes]{
@@ -724,7 +942,7 @@ way|z16-34[highway=service][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#45588c;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
 
@@ -739,8 +957,37 @@ way|z9-16[highway=service][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#45588c;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
+}
+
+way|z16-34[highway=service][junction=roundabout][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:33;
+	repeat-image-height:26;
+	width: 0;
+	repeat-image-spacing: 6;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#45588c;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
+}
+
+way|z9-16[highway=service][junction=circular][oneway=yes]{
+	repeat-image: "icons/newarrow2.svg";
+	repeat-image-align: center;
+	repeat-image-width:16;
+	repeat-image-height:10;
+	color:red;
+	width: 0;
+	repeat-image-spacing: 6;
+	z-index: -4;
+	casing-width:3;
+	casing-color:#45588c;
+	casing-dashes: 25, 15;
+	casing-dashes-background-color: #EA004F;
 }
 
 way|z16-34[highway=track][junction=roundabout][oneway=yes]{
@@ -754,7 +1001,7 @@ way|z16-34[highway=track][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:3;
 	casing-color:#6e541c;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
 
@@ -768,9 +1015,22 @@ way|z16-34[highway=path][junction=roundabout][oneway=yes]{
 	z-index: -4;
 	casing-width:1;
 	casing-color:#FF6644;
-	casing-dashes: 5;
+	casing-dashes: 25, 15;
 	casing-dashes-background-color:black;
 }
+
+/*Suspicious Roundabout*/
+
+way[junction=roundabout]:righthandtraffic:clockwise,
+way[junction=roundabout]!:righthandtraffic:anticlockwise {
+   text: tr("Suspicious Roundabout Direction");
+   text-color: red;
+   text-size: 13px;
+   text-position:center;
+   text-halo-color:white;
+
+}
+
 
 /*-----------oneway bridges paintstyle--------*/
 
@@ -927,3 +1187,11 @@ way[highway=service][oneway=yes][bridge=yes]::corebridge{
 	casing-dashes:20;
 	casing-dashes-background-color:#45588c;
 }	
+
+
+node:selected {
+    symbol-shape: square;
+    symbol-size: 6;
+    symbol-fill-color: node_selected#ff0000;
+    symbol-stroke-color: node_selected: cyan;
+}

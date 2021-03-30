@@ -16,6 +16,7 @@ way[highway] >node|z18-34!:connection {
 	symbol-fill-color: black;
 }
 
+
 way[highway] >node|z16-18!:connection {
 
 	symbol-shape:square;
@@ -1188,10 +1189,20 @@ way[highway=service][oneway=yes][bridge=yes]::corebridge{
 	casing-dashes-background-color:#45588c;
 }	
 
+way[highway] >node|z18-34[barrier=height_restrictor]!:connection {
+
+	symbol-shape:square;
+	symbol-size:6;
+	symbol-stroke-color: cyan;
+	symbol-fill-color: cyan;
+}
 
 node:selected {
     symbol-shape: square;
-    symbol-size: 6;
+    symbol-size: 5;
     symbol-fill-color: node_selected#ff0000;
     symbol-stroke-color: node_selected: cyan;
 }
+
+
+

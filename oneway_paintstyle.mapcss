@@ -390,6 +390,39 @@ casing-width:2;
 casing-color:#E8E8E8;
 }
 
+
+way|z19-34[highway=living_street][oneway=yes]{
+repeat-image: "icons/newarrow2.svg";
+repeat-image-align: center;
+repeat-image-width:33;
+repeat-image-height:26;
+color:red;
+width: 0;
+repeat-image-spacing: 26;
+z-index: -4;
+casing-width:2.5;
+casing-color: #00ff00;
+casing-dashes: 10;
+casing-dashes-background-color: #c1c1c1;
+}
+
+
+way|z9-18[highway=living_street][oneway=yes]{
+repeat-image: "icons/newarrow2.svg";
+repeat-image-align: center;
+repeat-image-width:26;
+repeat-image-height:20;
+color:red;
+width: 0;
+repeat-image-spacing: 6;
+z-index: -4;
+casing-width:2.5;
+casing-color: #443d3e;
+casing-dashes: 10;
+casing-dashes-background-color: #c1c1c1;
+}
+
+
 way|z19-34[highway=service][oneway=yes]{
 repeat-image: "icons/newarrow2.svg";
 repeat-image-align: center;
@@ -1038,9 +1071,9 @@ way[junction=roundabout]!:righthandtraffic:anticlockwise {
 
 way[highway=motorway][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	repeat-image-align: center;
 	repeat-image-width:28;
 	repeat-image-height:20;
@@ -1051,9 +1084,9 @@ way[highway=motorway][oneway=yes][bridge=yes]::corebridge{
 
 way[highway=motorway_link][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	casing-color: #FA8E05;
 	casing-dashes:25, 15;
 	casing-dashes-background-color:white;
@@ -1061,9 +1094,9 @@ way[highway=motorway_link][oneway=yes][bridge=yes]::corebridge{
 
 way[highway=trunk][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	repeat-image-align: center;
 	repeat-image-width:28;
 	repeat-image-height:20;
@@ -1074,9 +1107,9 @@ way[highway=trunk][oneway=yes][bridge=yes]::corebridge{
 
 way[highway=trunk_link][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	casing-color: #809BC0;
 	casing-dashes:25, 15;
 	casing-dashes-background-color:white;
@@ -1084,9 +1117,9 @@ way[highway=trunk_link][oneway=yes][bridge=yes]::corebridge{
 
 way[highway=primary][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	repeat-image-align: center;
 	repeat-image-width:28;
 	repeat-image-height:20;
@@ -1096,9 +1129,9 @@ way[highway=primary][oneway=yes][bridge=yes]::corebridge{
 }
 way[highway=primary_link][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	casing-color: #E46D71;
 	casing-dashes:25, 15;
 	casing-dashes-background-color:white;
@@ -1106,9 +1139,9 @@ way[highway=primary_link][oneway=yes][bridge=yes]::corebridge{
 
 way[highway=secondary][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	repeat-image-align: center;
 	repeat-image-width:28;
 	repeat-image-height:20;
@@ -1118,9 +1151,9 @@ way[highway=secondary][oneway=yes][bridge=yes]::corebridge{
 }
 way[highway=secondary_link][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	casing-color: #FDBF6F;
 	casing-dashes:25, 15;
 	casing-dashes-background-color:white;
@@ -1129,9 +1162,9 @@ way[highway=secondary_link][oneway=yes][bridge=yes]::corebridge{
 
 way[highway=tertiary][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	repeat-image-align: center;
 	repeat-image-width:28;
 	repeat-image-height:20;
@@ -1142,9 +1175,9 @@ way[highway=tertiary][oneway=yes][bridge=yes]::corebridge{
 
 way[highway=tertiary_link][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	casing-color: #FFFDA6;
 	casing-dashes:25, 15;
 	casing-dashes-background-color:white;
@@ -1152,9 +1185,9 @@ way[highway=tertiary_link][oneway=yes][bridge=yes]::corebridge{
 
 way[highway=unclassified][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	repeat-image-align: center;
 	repeat-image-width:28;
 	repeat-image-height:20;
@@ -1165,9 +1198,9 @@ way[highway=unclassified][oneway=yes][bridge=yes]::corebridge{
 
 way[highway=residential][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	repeat-image-align: center;
 	repeat-image-width:28;
 	repeat-image-height:20;
@@ -1178,9 +1211,9 @@ way[highway=residential][oneway=yes][bridge=yes]::corebridge{
 
 way[highway=service][oneway=yes][bridge=yes]::corebridge{
 	major-z-index: 2;
-    object-z-index: 5;
-    width: 0;
-    casing-width: 3;
+    	object-z-index: 5;
+    	width: 0;
+    	casing-width: 3;
 	repeat-image-align: center;
 	repeat-image-width:28;
 	repeat-image-height:20;
@@ -1198,10 +1231,10 @@ way[highway] >node|z18-34[barrier=height_restrictor]!:connection {
 }
 
 node:selected {
-    symbol-shape: square;
-    symbol-size: 5;
-    symbol-fill-color: node_selected#ff0000;
-    symbol-stroke-color: node_selected: cyan;
+    	symbol-shape: square;
+    	symbol-size: 5;
+    	symbol-fill-color: node_selected#ff0000;
+    	symbol-stroke-color: node_selected: cyan;
 }
 
 
